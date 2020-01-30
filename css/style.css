@@ -1,0 +1,256 @@
+body{
+    background-color: black;
+}
+@font-face{
+    src:url(fonts/Cocogoose-Compressed-Bold-trial.ttf);
+    font-family: coco;
+}
+.active{
+    background-color: #12765b;
+    border-radius: 20px;
+
+}
+.abt{
+    padding: 0px;
+    margin: 0px;
+}
+#hbody .col-12{
+    height: 260px;
+}
+#hbody{
+    background-image: url(../images/back3.png);
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#topnav{
+	margin: 0px;
+    padding: 0px;
+	height: 170px;
+}
+#topnav ul {
+	list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    height:75px;
+    width:auto;
+    background-color: transparent;
+    background-blend-mode: luminosity;
+
+}
+#topnav ul li{
+    margin: 7px;
+    padding:7px;
+    margin-left: 4px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-top: 1px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+#topnav li {
+
+	margin: 0px;
+    padding: 0px;
+    float: right;
+	/*margin-left: 20px;*/
+}
+#topnav li a{
+    padding: 1px 20px 1px 30px;
+}
+
+#topnav li a p{
+	font-family: Cardboard-Cutout;
+    color: white;
+	letter-spacing: 6px;
+	font-size: 17px;
+    text-align: left;
+}
+/*WORKS DROPDOWN*/
+#topnav li a, .wbutton {
+    display: inline-block;
+    color: white;
+    text-align:left;
+    /*padding: 10px 10px;*/
+    text-decoration: none;
+}
+
+#topnav li a:hover, .wdown:hover .wbutton {
+    border-style: solid;
+    border-radius: 20px;
+    background-color:#12765b;
+    padding: 1px 10px 1px 20px;
+    margin: 0px;
+    border-width: 1px;
+    display: block;
+    
+
+}
+#topnav li{
+	display: inline-block;
+
+}
+.wcontent {
+    display: none;
+    background-color:#4d483f;
+    position: absolute;
+    /*order-width: 1px;*/
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+}
+
+.wcontent a {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 80px;
+    color: white;
+ /*   padding: 10px 10px;*/
+    /*border-width: 1px;*/
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+}
+
+.wcontent a:hover {border-style: none; 
+    background-color: #4d483f;}
+
+.wdown:hover .wcontent {
+    display: block;
+}
+
+/*FEATURES DROPDOWN*/
+.active{
+    background-color: 
+}
+#topnav li a, .fbutton {
+    display: inline-block;
+    color: black;
+    text-align: left;
+   /* padding: 10px 10px;*/
+    text-decoration: none;
+}
+
+#topnav li a:hover, .fdown:hover .fbutton {
+    /*border-style: solid;*/
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #41ac8f;
+    padding: 1px 25px 1px 25px;
+    margin: 3px;
+    border-width: 0px;
+    display: block;
+}
+#topnav li.fdown {
+    display: inline-block;
+}
+.fcontent {
+    display: none;
+    position: absolute;
+    background-color:#4d483f;
+    width: 170px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.fcontent a p{
+    color: black;
+    font-size: 25px;
+/*    border-width: 1px;*/
+   /* padding: 10px 10px;*/
+    text-decoration: none;
+    text-align:left;
+    display: block;
+}
+.fcontent a{
+    font-size: 20px;
+    border-radius: 80px;
+    margin:5px;
+    padding: 5px;
+}
+
+.fcontent a:hover {border-style: solid;
+    background-color: #4d483f;}
+
+.fdown:hover .fcontent {
+      display: block; 
+      background-color: #4d483f;
+}
+/*ephersible*/
+#per {
+    padding: 1px;
+    margin: 1px;
+}
+#rme a{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#per p{
+    text-align: center;
+    color: white;
+    font-family: DreamOnly;
+    font-size: 15px;
+    letter-spacing: 7px;
+}
+#per h5{
+    text-align: center;
+    font-family: corbel;
+    letter-spacing: 3px;
+    font-size: 15px;
+    color: white;
+}
+#per h3{
+    font-family: Complex;
+    letter-spacing: 3px;
+
+    color: white;
+    text-align: center;
+}
+#see{
+    margin: 0px;
+    padding: 0px;
+}
+#see a{
+    margin-top: 0px;
+    padding: 0px;
+    opacity: 1px;
+}
+#see a p{
+    margin:0px;
+    text-align: center; 
+    text-decoration-style: none;
+    border-radius: 60px;
+    background-color: white;
+    opacity: 0.5;
+    height: 50px;
+    font-size: 30px;
+    opacity: 0.2;
+}
+#see a p:hover{
+    margin:0px;
+    text-align: center; 
+    text-decoration-style: none;
+    border-radius: 60px;
+    background-color: grey;
+    opacity: 0.9;
+    height: 50px;
+    font-size: 30px;
+}
+#spce {
+    height: 1px;
+    margin: 0px;
+    padding:0px;
+}
+
+#readm{
+    text-align: center;
+    
+}

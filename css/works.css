@@ -1,0 +1,52 @@
+#whitebg{
+	background-color: white;
+}
+.woknave ul li{
+	display: block;
+}
+.worknav .activework {
+	background-color:#12765b;
+	opacity: 0.7;
+}
+.worknav li{
+	list-style-type: none;
+	float: right;
+	margin: 1px;
+	padding: 1px;	
+}
+.worknav li a{
+/*	background-color:#12765b;*/
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 3px;
+	font-family: corbel;
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+}
+#wnav ul{
+	padding: 0px;
+	margin:0px;
+}
+.worknav li a:hover{
+	background-color:#12765b;
+	opacity: 0.7;
+}
+/*works container*/
+.c-container div{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+.c-container img{
+	margin-left: 13px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.c-container p{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+
+
